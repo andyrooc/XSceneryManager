@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RSSDataSet" targetNamespace="http://tempuri.org/RSSDataSet.xsd" xmlns:mstns="http://tempuri.org/RSSDataSet.xsd" xmlns="http://tempuri.org/RSSDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RSSDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RSSDataSet" msprop:Generator_UserDSName="RSSDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RSSData" msprop:Generator_TableClassName="RSSDataDataTable" msprop:Generator_TableVarName="tableRSSData" msprop:Generator_TablePropName="RSSData" msprop:Generator_RowDeletingName="RSSDataRowDeleting" msprop:Generator_RowChangingName="RSSDataRowChanging" msprop:Generator_RowEvHandlerName="RSSDataRowChangeEventHandler" msprop:Generator_RowDeletedName="RSSDataRowDeleted" msprop:Generator_UserTableName="RSSData" msprop:Generator_RowChangedName="RSSDataRowChanged" msprop:Generator_RowEvArgName="RSSDataRowChangeEvent" msprop:Generator_RowClassName="RSSDataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="link" msprop:Generator_ColumnVarNameInTable="columnlink" msprop:Generator_ColumnPropNameInRow="link" msprop:Generator_ColumnPropNameInTable="linkColumn" msprop:Generator_UserColumnName="link" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

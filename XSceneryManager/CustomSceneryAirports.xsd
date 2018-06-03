@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CustomSceneryAirports" targetNamespace="http://tempuri.org/CustomSceneryAirports.xsd" xmlns:mstns="http://tempuri.org/CustomSceneryAirports.xsd" xmlns="http://tempuri.org/CustomSceneryAirports.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CustomSceneryAirports" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CustomSceneryAirports" msprop:Generator_UserDSName="CustomSceneryAirports">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CustomAirports" msprop:Generator_TableClassName="CustomAirportsDataTable" msprop:Generator_TableVarName="tableCustomAirports" msprop:Generator_TablePropName="CustomAirports" msprop:Generator_RowDeletingName="CustomAirportsRowDeleting" msprop:Generator_RowChangingName="CustomAirportsRowChanging" msprop:Generator_RowEvHandlerName="CustomAirportsRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomAirportsRowDeleted" msprop:Generator_UserTableName="CustomAirports" msprop:Generator_RowChangedName="CustomAirportsRowChanged" msprop:Generator_RowEvArgName="CustomAirportsRowChangeEvent" msprop:Generator_RowClassName="CustomAirportsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="icao" msprop:Generator_ColumnVarNameInTable="columnicao" msprop:Generator_ColumnPropNameInRow="icao" msprop:Generator_ColumnPropNameInTable="icaoColumn" msprop:Generator_UserColumnName="icao" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="elevation" msprop:Generator_ColumnVarNameInTable="columnelevation" msprop:Generator_ColumnPropNameInRow="elevation" msprop:Generator_ColumnPropNameInTable="elevationColumn" msprop:Generator_UserColumnName="elevation" type="xs:int" minOccurs="0" />
+              <xs:element name="latitude" msprop:Generator_ColumnVarNameInTable="columnlatitude" msprop:Generator_ColumnPropNameInRow="latitude" msprop:Generator_ColumnPropNameInTable="latitudeColumn" msprop:Generator_UserColumnName="latitude" type="xs:double" minOccurs="0" />
+              <xs:element name="longitude" msprop:Generator_ColumnVarNameInTable="columnlongitude" msprop:Generator_ColumnPropNameInRow="longitude" msprop:Generator_ColumnPropNameInTable="longitudeColumn" msprop:Generator_UserColumnName="longitude" type="xs:double" minOccurs="0" />
+              <xs:element name="path" msprop:Generator_ColumnVarNameInTable="columnpath" msprop:Generator_ColumnPropNameInRow="path" msprop:Generator_ColumnPropNameInTable="pathColumn" msprop:Generator_UserColumnName="path" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="enabled" msprop:Generator_ColumnVarNameInTable="columnenabled" msprop:Generator_ColumnPropNameInRow="enabled" msprop:Generator_ColumnPropNameInTable="enabledColumn" msprop:Generator_UserColumnName="enabled" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomDSF" msprop:Generator_TableClassName="CustomDSFDataTable" msprop:Generator_TableVarName="tableCustomDSF" msprop:Generator_TablePropName="CustomDSF" msprop:Generator_RowDeletingName="CustomDSFRowDeleting" msprop:Generator_RowChangingName="CustomDSFRowChanging" msprop:Generator_RowEvHandlerName="CustomDSFRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomDSFRowDeleted" msprop:Generator_UserTableName="CustomDSF" msprop:Generator_RowChangedName="CustomDSFRowChanged" msprop:Generator_RowEvArgName="CustomDSFRowChangeEvent" msprop:Generator_RowClassName="CustomDSFRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="path" msprop:Generator_ColumnVarNameInTable="columnpath" msprop:Generator_ColumnPropNameInRow="path" msprop:Generator_ColumnPropNameInTable="pathColumn" msprop:Generator_UserColumnName="path" type="xs:string" minOccurs="0" />
+              <xs:element name="dsfFolder" msprop:Generator_ColumnVarNameInTable="columndsfFolder" msprop:Generator_ColumnPropNameInRow="dsfFolder" msprop:Generator_ColumnPropNameInTable="dsfFolderColumn" msprop:Generator_UserColumnName="dsfFolder" type="xs:string" minOccurs="0" />
+              <xs:element name="dsfFile" msprop:Generator_ColumnVarNameInTable="columndsfFile" msprop:Generator_ColumnPropNameInRow="dsfFile" msprop:Generator_ColumnPropNameInTable="dsfFileColumn" msprop:Generator_UserColumnName="dsfFile" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="enabled" msprop:Generator_ColumnVarNameInTable="columnenabled" msprop:Generator_ColumnPropNameInRow="enabled" msprop:Generator_ColumnPropNameInTable="enabledColumn" msprop:Generator_UserColumnName="enabled" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Runways" msprop:Generator_TableClassName="RunwaysDataTable" msprop:Generator_TableVarName="tableRunways" msprop:Generator_TablePropName="Runways" msprop:Generator_RowDeletingName="RunwaysRowDeleting" msprop:Generator_RowChangingName="RunwaysRowChanging" msprop:Generator_RowEvHandlerName="RunwaysRowChangeEventHandler" msprop:Generator_RowDeletedName="RunwaysRowDeleted" msprop:Generator_UserTableName="Runways" msprop:Generator_RowChangedName="RunwaysRowChanged" msprop:Generator_RowEvArgName="RunwaysRowChangeEvent" msprop:Generator_RowClassName="RunwaysRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="icao" msprop:Generator_ColumnVarNameInTable="columnicao" msprop:Generator_ColumnPropNameInRow="icao" msprop:Generator_ColumnPropNameInTable="icaoColumn" msprop:Generator_UserColumnName="icao" type="xs:string" minOccurs="0" />
+              <xs:element name="surface" msprop:Generator_ColumnVarNameInTable="columnsurface" msprop:Generator_ColumnPropNameInRow="surface" msprop:Generator_ColumnPropNameInTable="surfaceColumn" msprop:Generator_UserColumnName="surface" type="xs:int" minOccurs="0" />
+              <xs:element name="heading" msprop:Generator_ColumnVarNameInTable="columnheading" msprop:Generator_ColumnPropNameInRow="heading" msprop:Generator_ColumnPropNameInTable="headingColumn" msprop:Generator_UserColumnName="heading" type="xs:double" minOccurs="0" />
+              <xs:element name="length" msprop:Generator_ColumnVarNameInTable="columnlength" msprop:Generator_ColumnPropNameInRow="length" msprop:Generator_ColumnPropNameInTable="lengthColumn" msprop:Generator_UserColumnName="length" type="xs:double" minOccurs="0" />
+              <xs:element name="runway1" msprop:Generator_ColumnVarNameInTable="columnrunway1" msprop:Generator_ColumnPropNameInRow="runway1" msprop:Generator_ColumnPropNameInTable="runway1Column" msprop:Generator_UserColumnName="runway1" type="xs:string" minOccurs="0" />
+              <xs:element name="latitude1" msprop:Generator_ColumnVarNameInTable="columnlatitude1" msprop:Generator_ColumnPropNameInRow="latitude1" msprop:Generator_ColumnPropNameInTable="latitude1Column" msprop:Generator_UserColumnName="latitude1" type="xs:double" minOccurs="0" />
+              <xs:element name="longitude1" msprop:Generator_ColumnVarNameInTable="columnlongitude1" msprop:Generator_ColumnPropNameInRow="longitude1" msprop:Generator_ColumnPropNameInTable="longitude1Column" msprop:Generator_UserColumnName="longitude1" type="xs:double" minOccurs="0" />
+              <xs:element name="ils1" msprop:Generator_ColumnVarNameInTable="columnils1" msprop:Generator_ColumnPropNameInRow="ils1" msprop:Generator_ColumnPropNameInTable="ils1Column" msprop:Generator_UserColumnName="ils1" type="xs:double" minOccurs="0" />
+              <xs:element name="runway2" msprop:Generator_ColumnVarNameInTable="columnrunway2" msprop:Generator_ColumnPropNameInRow="runway2" msprop:Generator_ColumnPropNameInTable="runway2Column" msprop:Generator_UserColumnName="runway2" type="xs:string" minOccurs="0" />
+              <xs:element name="latitude2" msprop:Generator_ColumnVarNameInTable="columnlatitude2" msprop:Generator_ColumnPropNameInRow="latitude2" msprop:Generator_ColumnPropNameInTable="latitude2Column" msprop:Generator_UserColumnName="latitude2" type="xs:double" minOccurs="0" />
+              <xs:element name="longitude2" msprop:Generator_ColumnVarNameInTable="columnlongitude2" msprop:Generator_ColumnPropNameInRow="longitude2" msprop:Generator_ColumnPropNameInTable="longitude2Column" msprop:Generator_UserColumnName="longitude2" type="xs:double" minOccurs="0" />
+              <xs:element name="ils2" msprop:Generator_ColumnVarNameInTable="columnils2" msprop:Generator_ColumnPropNameInRow="ils2" msprop:Generator_ColumnPropNameInTable="ils2Column" msprop:Generator_UserColumnName="ils2" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomLibs" msprop:Generator_TableClassName="CustomLibsDataTable" msprop:Generator_TableVarName="tableCustomLibs" msprop:Generator_RowChangedName="CustomLibsRowChanged" msprop:Generator_TablePropName="CustomLibs" msprop:Generator_RowDeletingName="CustomLibsRowDeleting" msprop:Generator_RowChangingName="CustomLibsRowChanging" msprop:Generator_RowEvHandlerName="CustomLibsRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomLibsRowDeleted" msprop:Generator_RowClassName="CustomLibsRow" msprop:Generator_UserTableName="CustomLibs" msprop:Generator_RowEvArgName="CustomLibsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="path" msprop:Generator_ColumnVarNameInTable="columnpath" msprop:Generator_ColumnPropNameInRow="path" msprop:Generator_ColumnPropNameInTable="pathColumn" msprop:Generator_UserColumnName="path" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ATC" msprop:Generator_TableClassName="ATCDataTable" msprop:Generator_TableVarName="tableATC" msprop:Generator_TablePropName="ATC" msprop:Generator_RowDeletingName="ATCRowDeleting" msprop:Generator_RowChangingName="ATCRowChanging" msprop:Generator_RowEvHandlerName="ATCRowChangeEventHandler" msprop:Generator_RowDeletedName="ATCRowDeleted" msprop:Generator_UserTableName="ATC" msprop:Generator_RowChangedName="ATCRowChanged" msprop:Generator_RowEvArgName="ATCRowChangeEvent" msprop:Generator_RowClassName="ATCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="freq" msprop:Generator_ColumnVarNameInTable="columnfreq" msprop:Generator_ColumnPropNameInRow="freq" msprop:Generator_ColumnPropNameInTable="freqColumn" msprop:Generator_UserColumnName="freq" type="xs:string" minOccurs="0" />
+              <xs:element name="atcdesc" msprop:Generator_ColumnVarNameInTable="columnatcdesc" msprop:Generator_ColumnPropNameInRow="atcdesc" msprop:Generator_ColumnPropNameInTable="atcdescColumn" msprop:Generator_UserColumnName="atcdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="atctype" msprop:Generator_ColumnVarNameInTable="columnatctype" msprop:Generator_ColumnPropNameInRow="atctype" msprop:Generator_ColumnPropNameInTable="atctypeColumn" msprop:Generator_UserColumnName="atctype" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="XSM" msprop:Generator_TableClassName="XSMDataTable" msprop:Generator_TableVarName="tableXSM" msprop:Generator_TablePropName="XSM" msprop:Generator_RowDeletingName="XSMRowDeleting" msprop:Generator_RowChangingName="XSMRowChanging" msprop:Generator_RowEvHandlerName="XSMRowChangeEventHandler" msprop:Generator_RowDeletedName="XSMRowDeleted" msprop:Generator_UserTableName="XSM" msprop:Generator_RowChangedName="XSMRowChanged" msprop:Generator_RowEvArgName="XSMRowChangeEvent" msprop:Generator_RowClassName="XSMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DBVersion" msprop:Generator_ColumnVarNameInTable="columnDBVersion" msprop:Generator_ColumnPropNameInRow="DBVersion" msprop:Generator_ColumnPropNameInTable="DBVersionColumn" msprop:Generator_UserColumnName="DBVersion" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CustomAirports" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

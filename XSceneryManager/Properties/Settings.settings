@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="XSceneryManager.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XPlaneFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\X-Plane9</Value>
+    </Setting>
+    <Setting Name="DisabledSceneryFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Custom Scenery (Disabled)</Value>
+    </Setting>
+    <Setting Name="GoogleMapLATLONG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://maps.google.com/maps/place?q={0},{1}</Value>
+    </Setting>
+    <Setting Name="BingMapLATLONG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.bing.com/maps/default.aspx?q={0},{1}</Value>
+    </Setting>
+    <Setting Name="Metar" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.jetplan.com/jeppesen/jsp/weather/aocTextWeather.jsp?icao={0}&amp;rt=METAR</Value>
+    </Setting>
+    <Setting Name="FlightStats" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.flightstats.com/go/Airport/airportDetails.do?airport={0}</Value>
+    </Setting>
+    <Setting Name="WorldAeroData" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.worldaerodata.com/wad.cgi?airport={0}</Value>
+    </Setting>
+    <Setting Name="LastSceneryDownloadFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RSS_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://forums.x-plane.org/index.php?app=core&amp;module=global&amp;section=rss&amp;type=downloads</Value>
+    </Setting>
+    <Setting Name="AptMatchWords" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Muni,Municipal,Field,Airport,International,Intl,Heliport,sealane,base</Value>
+    </Setting>
+    <Setting Name="GoogleMapPLACE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://maps.google.com/maps?q={0} ({1})</Value>
+    </Setting>
+    <Setting Name="SkyVector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://skyvector.com/?ll={0},{1}&amp;zoom=4</Value>
+    </Setting>
+    <Setting Name="BingMapPLACE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.bing.com/maps/default.aspx?q={0} ({1})</Value>
+    </Setting>
+    <Setting Name="RSS_2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://forums.x-pilot.com/index.php/rss/downloads/</Value>
+    </Setting>
+    <Setting Name="OSMPLACE" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> http://www.openstreetmap.org/search?query={0}</Value>
+    </Setting>
+    <Setting Name="OSMLATLONG" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> http://www.openstreetmap.org/search?query={0},{1}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
